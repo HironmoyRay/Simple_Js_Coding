@@ -3,7 +3,7 @@ function matchFinder(string1, string2) {
     return "Invalid Input";
   } else {
     let result = string1.match(string2);
-    console.log(result);
+    // console.log(result);
     if (result === null) {
       return false;
     } else {
